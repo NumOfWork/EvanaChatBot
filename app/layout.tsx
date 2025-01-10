@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import StyledComponentsRegistry from "@/src/utils/SCRegistery";
+import { PoppinsFont } from "@/src/statics/fonts";
 
 export const metadata: Metadata = {
   title: "Next Styled TS",
@@ -15,7 +16,9 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <div id="bimboApp" className={PoppinsFont.className}>
+          <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        </div>
       </body>
     </html>
   );

@@ -1,3 +1,5 @@
+import ChatPage from "@/src/components/pages/chat/ChatPage";
+
 export default function Home() {
-  return <div>HI!</div>;
+  return <ChatPage />;
 }
