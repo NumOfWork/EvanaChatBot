@@ -1,20 +1,20 @@
 const Prompts = [
   {
     id: 1,
-    title: "Cryptid Encounters 🐺💀",
+    title: "Math Problem 📝💡",
     prompt:
-      "You've been tasked with investigating strange sightings of cryptids (mysterious creatures) around the world. Write a report detailing your findings and encounters.",
+      "I need help with my math homework. Can you solve this equation for me: 3x + 5 = 11?",
   },
   {
     id: 2,
-    title: "Code Assistant 💻🔧",
+    title: "Write Story ✍️📚",
     prompt:
-      "Generate a python code that calculates sum of the integers from 1 to n",
+      "Write a story about a horse with dreams",
   },
   {
     id: 3,
-    title: "Brainstorm 🤯💡",
-    prompt: "Let's do a brainstorm",
+    title: "Trip adviser 🗺️💼",
+    prompt: "What are some popular tourist destinations in Europe?",
   },
 ];
 export default Prompts;

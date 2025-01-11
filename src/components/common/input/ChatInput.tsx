@@ -101,7 +101,8 @@ export default function ChatInput({
     >
       {prompt.length > 0 ? (
         <CharacterCounterEl>
-          <span> {prompt.length}</span>/<span>{maxContextSize}</span>
+          {/* <span> {prompt.length}</span>/<span>{maxContextSize}</span> */}
+          <span> {prompt.length}</span>
         </CharacterCounterEl>
       ) : (
         ""
