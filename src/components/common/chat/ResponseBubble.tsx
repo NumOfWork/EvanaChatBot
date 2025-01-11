@@ -8,6 +8,7 @@ const ResponseBubbleEl = styled(Row)`
   background-color: ${Colors.Secondary};
   border-radius: 10px;
   width: fit-content;
+  white-space: pre-wrap;
   margin-right: auto;
   max-width: calc(100svw - 40px);
 `;

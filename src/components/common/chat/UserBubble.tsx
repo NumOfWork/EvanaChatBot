@@ -9,6 +9,7 @@ const UserBubbleEl = styled(Row)`
   border-radius: 10px;
   width: fit-content;
   margin-left: auto;
+  white-space: pre-wrap;
   max-width: calc(100svw - 40px);
 `;
 
