@@ -75,6 +75,13 @@ const SugEl = styled.div`
   }
 `;
 
+const SubTitleEl = styled.h3`
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  color: ${Colors.White};
+`;
+
 export default function GetStarted({
   setPrompt,
   active,
@@ -85,11 +92,11 @@ export default function GetStarted({
   return (
     <GetStartedEl $active={active ? "true" : "false"}>
       <Row $fd="column">
-        <TitleEl>BIMBO</TitleEl>
-        {/* <SubTitleEl>Ask me about stuff or give me a task</SubTitleEl> */}
+        <TitleEl>EVana ChatBot</TitleEl>
+        <SubTitleEl>ถามฉันมาได้เลย 😀😎</SubTitleEl> 
       </Row>
       <HolderEl>
-        {prompts.map((p) => {
+        {prompts.map((p) => { 
           return (
             <SugEl
               key={p.id}
@@ -99,8 +106,8 @@ export default function GetStarted({
             >
               <div>{p.title}</div>
               <div>
-                {p.prompt.length > 30
-                  ? p.prompt.substring(0, 30) + "..."
+                {p.prompt.length > 50
+                  ? p.prompt.substring(0, 50) + "..."
                   : p.prompt}
               </div>
             </SugEl>

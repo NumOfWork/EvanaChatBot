@@ -1,4 +1,12 @@
 import { Inter as INTER, Poppins as POPPINS } from "next/font/google";
+import { Comic_Neue as COMICNEUE } from "next/font/google";
+
+export const ComicFont = COMICNEUE({
+  weight: ["300", "400", "700"],
+  style: ["normal"],
+  display: "swap",
+  subsets: ["latin"],
+});
 
 export const PoppinsFont = POPPINS({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],

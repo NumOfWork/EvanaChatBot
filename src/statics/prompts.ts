@@ -1,20 +1,20 @@
 const Prompts = [
   {
     id: 1,
-    title: "Math Problem 📝💡",
+    title: "วางแผนการเดินทาง 📝💡",
     prompt:
-      "I need help with my math homework. Can you solve this equation for me: 3x + 5 = 11?",
+      "ช่วยวางแผนการเดินทางหน่อย" ,
   },
   {
     id: 2,
-    title: "Write Story ✍️📚",
+    title: "วางแผนพักระหว่างการเดินทาง💼💡",
     prompt:
-      "Write a story about a horse with dreams",
+      "ช่วยวางแผนพักระหว่างการเดินทางหน่อย",
   },
   {
     id: 3,
-    title: "Trip adviser 🗺️💼",
-    prompt: "What are some popular tourist destinations in Europe?",
+    title: "อยากไปสถานที่ที่นึง 🗺️💡",
+    prompt: "อยากไปสถานที่ที่นึงด้วยรถยนต์ไฟฟ้าส่วนตัว",
   },
 ];
 export default Prompts;

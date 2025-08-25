@@ -39,7 +39,7 @@ export default function useChat() {
     if (messages.length > 0) {
       setStage("CHAT");
       if (typeof window !== "undefined") {
-        document.getElementById("bimboApp")?.scrollTo({ top: 1000000000 });
+        document.getElementById("EVana")?.scrollTo({ top: 1000000000 });
       }
     } else {
       setStage("GET_STARTED");

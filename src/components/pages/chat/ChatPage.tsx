@@ -33,7 +33,7 @@ export default function ChatPage() {
 
   return (
     <ChatPageEl id="chatPage">
-      {stage === "CHAT" && <NewChatBtn onClick={reset}>New Chat</NewChatBtn>}
+      {stage === "CHAT" && <NewChatBtn onClick={reset}>เริ่มแชทใหม่</NewChatBtn>}
       <ChatHolder messages={messages} />
       <GetStarted
         setPrompt={setInput}
@@ -47,7 +47,7 @@ export default function ChatPage() {
         handleSubmit={handleSubmit}
         canSend={canSend}
         handleInputChange={handleInputChange}
-        maxContextSize={2024}
+        maxContextSize={2025}
       />
     </ChatPageEl>
   );

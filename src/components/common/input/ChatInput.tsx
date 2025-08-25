@@ -115,7 +115,7 @@ export default function ChatInput({
           value={prompt}
           onChange={handleInputChange}
           style={{ height: "auto" }}
-          placeholder="Ask me about stuff"
+          placeholder="พิมพ์ข้อความคำถามตรงนี้..."
         />
         {isLoading ? (
           <Spinner size="2rem" />

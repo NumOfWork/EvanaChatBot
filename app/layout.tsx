@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 import StyledComponentsRegistry from "@/src/utils/SCRegistery";
 import { PoppinsFont } from "@/src/statics/fonts";
+import { ComicFont } from "@/src/statics/fonts";
 
 export const metadata: Metadata = {
-  title: "Next Styled TS",
-  description: "NextJs with Styled Components and TypeScript",
+  title: "EVana ChatBot",
+  description: "EVana ChatBot Assistant",
 };
 
 export default function RootLayout({
@@ -16,7 +17,7 @@ export default function RootLayout({
   return (
     <html>
       <body>
-        <div id="bimboApp" className={PoppinsFont.className}>
+        <div id="EVana" className={PoppinsFont.className}>
           <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
         </div>
       </body>

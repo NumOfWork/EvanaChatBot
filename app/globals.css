@@ -24,7 +24,7 @@ body {
   position: relative;
 }
 
-#bimboApp {
+#EVana {
   display: flex;
   height: fit-content;
   min-height: 100svh;
@@ -32,5 +32,5 @@ body {
   overflow: auto;
   margin: 0 auto;
   flex-direction: column;
-  background-color: #170a1c;
+  background-color: #342f33;
 }
